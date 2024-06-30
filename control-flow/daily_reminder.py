@@ -16,7 +16,7 @@ reminder = f"'{task}' is a {priority} priority task."
 if time_bound == "yes":
     reminder += " It requires immediate attention today!"
 
-# Provide a customized reminder
+# Provide a customized reminder using match-case
 match priority:
     case "high":
         print(reminder)
