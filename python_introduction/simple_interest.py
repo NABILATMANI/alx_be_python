@@ -9,4 +9,4 @@ time = 3
 interest = principal * rate * time
 
 # Print the calculated interest
-print(f"The
+print(f"The simple interest is: {interest}")
