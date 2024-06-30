@@ -23,6 +23,6 @@ match priority:
     case "medium":
         print(reminder)
     case "low":
-        print(f"Note: {reminder} Consider completing it when you have free time.")
+        print(reminder + " Consider completing it when you have free time.")
     case _:
         print("Invalid priority level provided.")
