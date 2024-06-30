@@ -19,10 +19,10 @@ if time_bound == "yes":
 # Provide a customized reminder using match-case
 match priority:
     case "high":
-        print(reminder)
+        print(f"Reminder: {reminder}")
     case "medium":
-        print(reminder)
+        print(f"Reminder: {reminder}")
     case "low":
-        print(reminder + " Consider completing it when you have free time.")
+        print(f"Reminder: {reminder}. Consider completing it when you have free time.")
     case _:
         print("Invalid priority level provided.")
